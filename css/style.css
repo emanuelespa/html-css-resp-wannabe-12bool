@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  [class*="col-xs-"] {
+    padding: 20px;
+    font-size: 22px;
+  }
+
+}
+
+.grey {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+h3 {
+  padding: 20px;
+}
+
+.grey:nth-child(3) .col-lg-12 img {
+  border-radius: 50%;
+  background-color: #428bca;
+}
+
+/* COMMON */
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  border-radius: 25%;
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(77,77,77,1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(77,77,77,1);
+  box-shadow: 0px 0px 15px 0px rgba(77,77,77,1);
+}
